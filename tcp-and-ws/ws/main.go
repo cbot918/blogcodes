@@ -62,6 +62,8 @@ func handleConnection(conn net.Conn) {
 		if err != nil {
 			log.Fatal(err)
 		}
+
+		fmt.Println("checkout web for socket connected")
 	}
 }
 
